@@ -1,0 +1,332 @@
+@media only screen and (max-width: 79.125em) {
+
+    header {
+      padding: 5rem 5rem;
+    }
+  
+    .hero-text {
+      width: 60%;
+      margin-top: 2rem;
+    }
+  
+    .hero-img {
+      width: 35%;
+    }
+  
+    .profile-text {
+      margin-top: 0rem;
+    }
+  }
+  
+  @media only screen and (max-width: 59.4375em) {
+  
+    nav img {
+      width: 10rem;
+    }
+  
+    .btn a {
+      padding: 1.5rem 3rem;
+    }
+  
+    h1 {
+      font-size: 4rem;
+    }
+  
+    .hero-text p {
+      font-size: 1.8rem;
+    }
+  
+    .service-detail h2 {
+      font-size: 2.5rem;
+    }
+  
+    .service-detail p {
+      font-size: 1.6rem;
+    }
+  
+    .form h2 {
+      font-size: 3rem;
+    }
+  
+    .form p {
+      width: 70%;
+    }
+  
+    .public h2 {
+      font-size: 3rem;
+      width: 65%;
+    }
+  
+    .public p {
+      width: 80%;
+    }
+  
+    .footer-text h2 {
+      font-size: 2.5rem;
+    }
+  
+    .footer-text p {
+      font-size: 1.5rem;
+    }
+  
+    .case {
+      justify-content: space-around;
+    }
+  }
+  
+  @media only screen and (max-width: 54.3125em) {
+    nav {
+      align-items: flex-start;
+      position: relative;
+    }
+  
+    nav ul {
+      /* display: none; */
+      margin-top: 5rem;
+      position: absolute;
+      right: -8rem;
+      background-color: #edb872;
+      padding: 10rem 5rem;
+      font-size: 1.5rem;
+      opacity: 0;
+      width: 0;
+      height: 70vh;
+      transition: all .8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+      border-top-left-radius: .6rem;
+      border-bottom-left-radius: .6rem;
+      z-index: 2000;
+    }
+  
+    nav ul li {
+      display: block;
+      transition: all .8s;
+      font-size: 3rem;
+      text-align: center;
+      font-weight: 600;
+    }
+  
+    nav ul li a {
+      color: #052925;
+    }
+  
+    .sidebarHidden {
+  
+      opacity: 0;
+      width: 0;
+      transition: all .8s;
+    }
+  
+    nav li:not(:last-child) {
+      margin-right: 0rem;
+      margin-bottom: 3.5rem;
+  
+    }
+  
+    .barLink {
+      display: block;
+    }
+  
+    .btn a {
+      display: none;
+    }
+  
+    .hero {
+      flex-direction: column;
+    }
+  
+    .hero-text {
+      text-align: center;
+      margin-bottom: 5rem;
+      width: 75%;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  
+    .hero-img {
+      width: 50%;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  
+    .service {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .service-detail {
+      width: 80%;
+      margin-bottom: 5rem;
+    }
+  
+    .service-type {
+      width: 100%;
+    }
+  
+    .profile {
+      flex-direction: column;
+      margin-top: -10rem;
+    }
+  
+    .profile img {
+      width: 50%;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  
+    .profile-text {
+      width: 100%;
+      margin-top: 3rem;
+    }
+  
+    .profile-text h2 {
+      text-align: center;
+    }
+  
+    input {
+      width: 50%;
+    }
+  
+    .form p {
+      width: 70%;
+    }
+  
+    .public h2 {
+      width: 75%;
+    }
+  
+    .public p {
+      width: 90%;
+    }
+  
+    .footer {
+      flex-direction: column;
+    }
+  
+    .footer-text {
+      width: 80%;
+      margin-bottom: 2rem;
+    }
+  
+    footer ul {
+      margin-bottom: 2rem;
+    }
+  }
+  
+  @media only screen and (max-width: 44.3125em) {
+    .hero-text {
+      width: 100%;
+    }
+  
+    .service-detail {
+      width: 100%;
+    }
+  
+    .form p {
+      width: 90%;
+    }
+  
+    input {
+      width: 80%;
+    }
+  
+    .case {
+      justify-content: space-between;
+    }
+  
+    .public h2 {
+      width: 100%;
+      margin-top: -10rem;
+    }
+  
+    .public p {
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 36.3125em) {
+    textarea {
+      width: 100%;
+    }
+  
+    header {
+      padding-bottom: 3rem;
+    }
+  
+    .case-box {
+      margin-bottom: 3rem;
+    }
+  
+    .case {
+      flex-direction: column;
+    }
+  
+    .public h2 {
+      font-size: 2rem;
+    }
+  
+    .service-detail h2 {
+      font-size: 2rem;
+    }
+  
+    .profile-text h2 {
+      font-size: 2rem;
+    }
+  
+    .form h2 {
+      font-size: 2rem;
+  
+    }
+  
+    .form p {
+      width: 100%;
+    }
+  
+    footer {
+      padding: 8rem 3rem;
+  
+    }
+  
+    .footer-text {
+      width: 100%;
+    }
+  
+    section {
+      padding: 8rem 3rem;
+    }
+  
+    .hero-text {
+      width: 100%;
+    }
+  
+    h1 {
+      font-size: 3rem;
+    }
+  
+    .hero-text p {
+      font-size: 1.6rem;
+    }
+  
+    .public p {
+      text-align: left;
+      font-size: 1.6rem;
+    }
+  
+    .profile-text p {
+      text-align: left;
+      font-size: 1.5rem;
+    }
+  
+    .service-detail p {
+      font-size: 1.5rem;
+    }
+  
+    .hero-text a {
+      padding: 1.5rem 3rem;
+    }
+  
+    nav ul li {
+      font-size: 2rem;
+    }
+  }
+  
